@@ -1,0 +1,177 @@
+body{
+	background: #fafafa;
+	font-family: 'PT Sans';
+}
+
+footer{
+	border-top: solid 5px #538bab;
+	background: #2c5064;
+	height: 160px;
+}
+
+footer p{
+	color: #929699;
+	text-align: center;
+	margin: 0 0 1em 0;
+}
+
+footer p:first-child{
+	color: #c4c4c4;
+	text-align: center;
+	margin: 2em 0 0.2em 0;
+}
+
+header{
+	background: #5a95b7;
+	border-bottom: solid 5px #538bab;
+	height: 86px;
+	position: relative;
+}
+
+header figure{
+	position: absolute;
+	bottom:-62%;
+	right: 30px;
+}
+
+header figure #avatar{
+	border-radius: 50%;
+	position: relative;
+	width: 85px;
+	z-index: 2;
+}
+header figure #avatar_flechita{
+	position: absolute;
+	top:25%;
+	left:20px;
+	background: #3d3d3d;
+	width: 65px;
+	padding: 0.6em 0.8em;
+	margin: 0;
+	border-radius: 3px;
+	text-align: right;
+	color: white;
+	vertical-align: bottom;
+}
+
+
+nav{
+	background: #5cbcbe;
+	margin:0;
+	padding: 0;
+}
+
+nav ul{
+	margin:0;
+	padding: 0;
+	display: inline-block;
+	padding: 0.2em;
+}
+
+nav ul a li{
+	border-radius: 35%;
+	display: inline-block;
+	font-size: 14px;
+	list-style: none;
+	margin:0 0 0 0.2em ;
+	padding: 0.6em 0.85em;
+	transition:all 0.5s ease;
+}
+nav ul a .nav_not{
+	background: #f9966a;
+	border: solid 1px #dc845d; 
+}
+
+nav ul a .nav_not:hover{
+	background: #dc845d;
+}
+
+nav ul a .nav_bus{
+	background: #56afb1;
+	border: solid 1px #53aaac;
+	display: none; 
+}
+
+nav ul a .nav_bus:hover{
+	background: #53aaac;
+}
+
+nav ul a{
+	text-decoration: none;
+	color:#f1f1f1;
+}
+
+nav #nav_buscador{
+	border: solid 1px #ccc;
+	padding: 0.4em 0.5em;
+	margin: 0.1em 120px 0 0;
+	border-radius: 3px;
+	float: right;
+	background: #efefef;
+}
+
+#cursos{
+	margin:1em;
+}
+
+#cursos h1{
+	color: #878787;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: solid 1px #d5d5d5;
+}
+
+.curso figure{
+	width: auto;
+	position: static;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.curso{
+	width: 100%;	
+	position: relative;
+	max-height: 400px;
+	border-radius:0.2em; 
+	overflow: hidden;
+	border:solid 1px #e7e7e7;
+	cursor:pointer;
+	margin-bottom: 1em;
+}
+
+.curso .curso_texto{
+	position: absolute;
+	height: 33%;
+	width: 96%;
+	bottom:0;
+	right: 0;
+	background: #e7e7e7;
+	padding: 2%;
+	color: #a6a6a6;
+}
+
+.curso .curso_texto h2{
+	margin: 0 0 0.4em 0;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: solid 1px #d7d7d7;
+	display: block;
+}
+
+.curso .curso_texto p{
+	margin: 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 450px){
+	nav ul a .nav_bus{
+		display: inline-block;
+	}
+	nav #nav_buscador{
+		display: none;
+	}
+
+}
