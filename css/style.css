@@ -64,7 +64,7 @@ footer p span:after{
 
 header{
 	/*background: #056DA9;*/
-	background: url("../image/bg.png") repeat center bottom;
+	background: url("../images/bg.png") repeat center bottom;
 	border-bottom: solid 5px #155D86;
 	height: 40px;
 	position: relative;

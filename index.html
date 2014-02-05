@@ -3,30 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>.:Sikna</title>
+	<title>.:BenckMark</title>
 
-	<link rel="stylesheet" href="normalize.css"/>
-	<link rel="stylesheet" href="style.css"/>
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/bm.ico">
 </head>
 <body>
 	<header>
+		<img id="logo" src="images/bm3.png" alt="">
+		<h2>BenchMark</h2>
 		<figure>
 			<img id="avatar" src="avatar.jpg" alt="">
-			<figcaption id="avatar_flechita">*</figcaption>
+			<figcaption id="avatar_flechita" class="icon-abajo">	
+			</figcaption>
 		</figure>
 	</header>
 	<nav>
 		<ul>
-			<a href="#"><li class="nav_not">#</li></a>
-			<a href="#"><li class="nav_not">#</li></a>
-			<a href="#"><li class="nav_bus">#</li></a>
+			<a href="#"><li class="nav_not icon-campana"> 15</li></a>
+			<a href="#"><li class="nav_not icon-carta"></li></a>
+			<a href="#"><li class="nav_bus icon-lupa"></li></a>
 		</ul>
 		<input type="text" id="nav_buscador" placeholder="A quien esta buscando?">
 	</nav>
 	<section id="cursos">
 		<h1>cursos disponibles</h1>
+
 		<article class="curso">
+			<a href="#" class="url"></a>
 			<figure style="background-image:url('diseñow.jpg');">
 			</figure>
 			<div class="curso_texto">
@@ -34,7 +40,9 @@
 				<p>Aprende desde cero, las mejores practicas para hacer un sitio web moderno.</p>
 			</div>
 		</article>
+
 		<article class="curso">
+			<a href="#" class="url"></a>
 			<figure style="background-image:url('marketing.jpg');">
 			</figure>
 			<div class="curso_texto">
@@ -42,7 +50,9 @@
 				<p>Aprende desde cero, las mejores practicas para hacer un sitio web moderno.</p>
 			</div>
 		</article>
+
 		<article class="curso">
+			<a href="#" class="url"></a>
 			<figure style="background-image:url('frontend.jpg');">
 			</figure>
 			<div class="curso_texto">
@@ -52,7 +62,11 @@
 		</article>
 	</section>
 	<footer>
-		<p id="footer_titulo"><span>Sikna </span>plataforma de educación online</p>
+		<p id="footer_titulo">
+			<span>BenchMark</span> 
+			plataforma de educación online
+		</p>
+
 		<p id="footer_creditos">Ing. Juan Alberto Jimenez Angel</p>
 	</footer>
 </body>
